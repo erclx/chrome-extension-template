@@ -28,6 +28,6 @@ export default defineConfig([
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error',
     },
-    eslintConfigPrettier,
   },
+  eslintConfigPrettier,
 ])
