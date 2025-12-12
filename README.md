@@ -15,13 +15,13 @@ This template helps you quickly start developing Chrome extensions with React, T
 1. Install dependencies:
 
 ```bash
-npm install
+bun install
 ```
 
 2. Start development server:
 
 ```bash
-npm run dev
+bun run dev
 ```
 
 3. Open Chrome and navigate to `chrome://extensions/`, enable "Developer mode", and load the unpacked extension from the `dist` directory.
@@ -29,7 +29,7 @@ npm run dev
 4. Build for production:
 
 ```bash
-npm run build
+bun run build
 ```
 
 ## Project Structure
