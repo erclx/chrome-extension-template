@@ -11,7 +11,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "lint:spelling": "cspell \"**\"",
-    "prepare": "husky"
+    "prepare": "husky",
+    "reset": "bash ./reset-template.sh"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.17",
