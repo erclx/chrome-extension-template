@@ -45,7 +45,8 @@ if [ -f "package.json" ]; then
   TMP_FILE=$(mktemp)
   sed "s/\"name\": \"[^\"]*\"/\"name\": \"$PROJECT_NAME\"/" package.json > "$TMP_FILE"
   sed "s/\"version\": \"[^\"]*\"/\"version\": \"0.1.0\"/" "$TMP_FILE" > package.json
-  rm "$TMP_FILE"
+  sed "s/\"description\": \"[^\"]*\"/\"description\": \"A Chrome extension\"/" package.json > "$TMP_FILE"
+  mv "$TMP_FILE" package.json
 fi
 
 # Update manifest configuration
