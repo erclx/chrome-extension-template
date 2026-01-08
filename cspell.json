@@ -13,6 +13,7 @@
     "sidepanel",
     "tailwindcss",
     "turbopack",
+    "Vite",
     "zod"
   ],
   "ignorePaths": [
